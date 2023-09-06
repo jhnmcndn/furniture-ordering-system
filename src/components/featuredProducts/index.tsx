@@ -14,23 +14,28 @@ import 'swiper/css'
 import 'swiper/css/navigation'
 
 const FeaturedProducts = () => {
-   return (<section className={styles.featuredContainer}>
-      <div className={styles.heading}><h2 className={styles.title}>Featured Products</h2> <ArrowSwiper/></div>
-      <div className={styles.products}>
-         <Swiper modules={[Navigation]}
-                 spaceBetween={24}
-                 slidesPerView={4}
-                 pagination={{clickable: true,}}
-                 navigation={true} loop={true}
-                 className="featuredProductSwiper">
-            {storeItems.map(item => {
-            return (
-                  <SwiperSlide>
-                     <StoreItem {...item}/>
-                  </SwiperSlide>
-            )})}
-         </Swiper>
-      </div>
-   </section>);
+   return (
+         <section className={styles.featuredContainer}>
+            <div className={styles.heading}>
+               <h2 className={styles.title}>Featured Products</h2>
+               <ArrowSwiper/>
+            </div>
+            <div className={styles.products}>
+               <Swiper modules={[Navigation]}
+                       spaceBetween={24}
+                       slidesPerView={4}
+                       pagination={{clickable: true,}}
+                       navigation={true} loop={true}
+                       className="featuredProductSwiper">
+                  {storeItems.map(item => {
+                     return (
+                           <SwiperSlide>
+                              <StoreItem {...item}/>
+                           </SwiperSlide>
+                     )
+                  })}
+               </Swiper>
+            </div>
+         </section>);
 };
 export default FeaturedProducts;
