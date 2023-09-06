@@ -1,0 +1,32 @@
+.arrowSwiper {
+   display: flex;
+   justify-content: space-between;
+   width: 10.6rem;
+   height: auto;
+
+   .leftArrow, .rightArrow {
+      width: 4.4rem;
+      height: 4.4rem;
+      cursor: pointer;
+   }
+
+   .leftArrow {
+      background: url("../../assets/home/leftArrow_normal.png") no-repeat;
+      background-size: 100% 100%;
+
+      &:hover {
+         background: url("../../assets/home/leftArrow_active.png");
+         background-size: 100% 100%;
+      }
+   }
+
+   .rightArrow {
+      background: url("../../assets/home/rightArrow_normal.png") no-repeat;
+      background-size: 100% 100%;
+
+      &:hover {
+         background: url("../../assets/home/rightArrow_active.png");
+         background-size: 100% 100%;
+      }
+   }
+}

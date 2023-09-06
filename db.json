@@ -1,0 +1,14 @@
+{
+   "posts": [
+      {
+         "id": 1,
+         "title": "Hello World",
+         "body": "This is my first post"
+      },
+      {
+         "id": 2,
+         "title": "How to use json-server",
+         "body": "It's very easy and fast"
+      }
+   ]
+}

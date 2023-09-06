@@ -1,0 +1,191 @@
+.addToCart {
+   width: 4.4rem;
+   height: 4.4rem;
+   background: url("../../assets/home/addCart_normal.png") no-repeat;
+   background-size: 100% 100%;
+   cursor: pointer;
+
+   &:hover {
+      background: url("../../assets/home/addCart_active.png") no-repeat;
+      background-size: 100% 100%;
+   }
+}
+
+.leftContent {
+   width: 43rem;
+   height: 54.2rem;
+
+   img {
+      width: 100%;
+      height: 100%;
+   }
+}
+
+.rightContent {
+   padding: 6rem 4.5rem;
+
+   .title {
+      color: #272343;
+      font-family: Inter;
+      font-size: 4.8rem;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 100%; /* 4.8rem */
+      margin-bottom: 2rem;
+   }
+
+   .details {
+      width: 41rem;
+      color: #636270;
+      font-family: Inter;
+      font-size: 2rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 150%; /* 3rem */
+      text-transform: capitalize;
+      margin-bottom: 2rem;
+   }
+
+   .price {
+      color: #272343;
+      font-family: Inter;
+      font-size: 1.6rem;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 150%; /* 2.4rem */
+      //margin-bottom: 5.3rem;
+      span {
+         color: #636270;
+         font-family: Inter;
+         font-weight: 400;
+      }
+   }
+
+   .addProduct {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      margin-top: 8.3rem;
+
+      .top {
+         display: flex;
+         justify-content: space-between;
+         margin-bottom: 2rem;
+
+         .quantity {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 35.5rem;
+            height: 4.4rem;
+            border-radius: 5.6rem;
+            box-shadow: 0 3px 12px 0 rgba(94, 76, 112, 0.18);
+            padding: 1.2rem 2.2rem;
+            cursor: pointer;
+
+            .decrease {
+               width: 1.2rem;
+               height: 0.2rem;
+               background: url("../../assets/home/modal/decrease.png") no-repeat;
+               background-size: 100% 100%;
+            }
+
+            .pieces {
+               color: #272343;
+               text-align: center;
+               font-family: Inter;
+               font-size: 1.6rem;
+               font-style: normal;
+               font-weight: 600;
+               line-height: 2rem; /* 125% */
+            }
+
+            .increase {
+               width: 1.15rem;
+               height: 1rem;
+               background: url("../../assets/home/modal/increase.png") no-repeat;
+               background-size: 100% 100%;
+            }
+         }
+
+         .favorite {
+            width: 4.4rem;
+            height: 4.4rem;
+            background: url("../../assets/home/modal/favorite-unactive.png") no-repeat;
+            background-size: 100% 100%;
+            border-radius: 5.3rem;
+            box-shadow: 0px 3px 12px 0px rgba(94, 76, 112, 0.18);
+            cursor: pointer;
+
+            &:hover {
+               background: url("../../assets/home/modal/favorite-active.png") no-repeat;
+               background-size: 100% 100%;
+            }
+         }
+      }
+
+      .addToCart {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         width: 100%;
+         height: 4.3rem;
+         border-radius: 5.6rem;
+         background: #029FAE;
+         box-shadow: 0 3px 12px 0 rgba(74, 58, 255, 0.18);
+         color: #FFFFFF;
+         text-align: center;
+         font-family: Inter;
+         font-size: 1.6rem;
+         font-style: normal;
+         font-weight: 600;
+         cursor: pointer;
+      }
+
+      .removeToCart {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         width: 100%;
+         height: 4.3rem;
+         border-radius: 5.6rem;
+         background: #D05050;
+         box-shadow: 0 3px 12px 0 rgba(74, 58, 255, 0.18);
+         color: #FFFFFF;
+         text-align: center;
+         font-family: Inter;
+         font-size: 1.6rem;
+         font-style: normal;
+         font-weight: 600;
+         cursor: pointer;
+      }
+   }
+}
+
+:global {
+   .ant-modal-wrap {
+      .fastBuyButton {
+         width: 93rem !important;
+         height: 54.2rem;
+
+         .ant-modal-content {
+            height: 100%;
+            padding: 0;
+            border-radius: 2.4rem;
+            overflow: hidden;
+
+            .ant-modal-body {
+               font-size: unset;
+               line-height: unset;
+               word-wrap: unset;
+               display: flex;
+            }
+
+            .ant-modal-footer {
+               position: absolute;
+               bottom: 0;
+            }
+         }
+      }
+   }
+}

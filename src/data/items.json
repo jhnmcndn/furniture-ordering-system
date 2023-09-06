@@ -1,0 +1,66 @@
+[
+   {
+      "id": 1,
+      "name": "Windsor Chair",
+      "price": 24,
+      "imgUrl": "/src/assets/home/products/windsor_chair.png",
+      "imgUrlModalAddToCart": "src/assets/home/products/addTo-windsor_chair.png",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sit amet mi nec massa tincidunt blandit et eu sem. Maecenas laoreet ultrices diam dignissim posuere. Aenean ultrices"
+   },
+   {
+      "id": 2,
+      "name": "Arm Chair",
+      "price": 31,
+      "imgUrl": "src/assets/home/products/arm_chair.png",
+      "imgUrlModalAddToCart": "src/assets/home/products/addTo-arm_chair.png",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sit amet mi nec massa tincidunt blandit et eu sem. Maecenas laoreet ultrices diam dignissim posuere. Aenean ultrices"
+   },
+   {
+      "id": 3,
+      "name": "Cantilever Chair",
+      "price": 20,
+      "imgUrl": "/src/assets/home/products/cantilever_chair.png",
+      "imgUrlModalAddToCart": "src/assets/home/products/addTo-cantilever_chair.png",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sit amet mi nec massa tincidunt blandit et eu sem. Maecenas laoreet ultrices diam dignissim posuere. Aenean ultrices"
+   },
+   {
+      "id": 4,
+      "name": "Womb Chair",
+      "price": 86,
+      "imgUrl": "/src/assets/home/products/womb_chair.png",
+      "imgUrlModalAddToCart": "src/assets/home/products/addTo-womb_chair.png",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sit amet mi nec massa tincidunt blandit et eu sem. Maecenas laoreet ultrices diam dignissim posuere. Aenean ultrices"
+   },
+   {
+      "id": 5,
+      "name": "Barcelona Chair",
+      "price": 42,
+      "imgUrl": "/src/assets/home/products/barcelona_chair.png",
+      "imgUrlModalAddToCart": "src/assets/home/products/addTo-barcelona_chair.png",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sit amet mi nec massa tincidunt blandit et eu sem. Maecenas laoreet ultrices diam dignissim posuere. Aenean ultrices"
+   },
+   {
+      "id": 6,
+      "name": "Wing Chair",
+      "price": 23,
+      "imgUrl": "/src/assets/home/products/wing_chair.png",
+      "imgUrlModalAddToCart": "src/assets/home/products/addTo-wing_chair.png",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sit amet mi nec massa tincidunt blandit et eu sem. Maecenas laoreet ultrices diam dignissim posuere. Aenean ultrices"
+   },
+   {
+      "id": 7,
+      "name": "Club Chair",
+      "price": 37,
+      "imgUrl": "/src/assets/home/products/club_chair.png",
+      "imgUrlModalAddToCart": "src/assets/home/products/addTo-club_chair.png",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sit amet mi nec massa tincidunt blandit et eu sem. Maecenas laoreet ultrices diam dignissim posuere. Aenean ultrices"
+   },
+   {
+      "id": 8,
+      "name": "Wishbone Chair",
+      "price": 19,
+      "imgUrl": "/src/assets/home/products/wishbone_chair.png",
+      "imgUrlModalAddToCart": "src/assets/home/products/addTo-wishbone_chair.png",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sit amet mi nec massa tincidunt blandit et eu sem. Maecenas laoreet ultrices diam dignissim posuere. Aenean ultrices"
+   }
+]
