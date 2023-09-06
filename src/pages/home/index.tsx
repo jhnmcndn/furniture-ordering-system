@@ -3,6 +3,7 @@ import Banner from "../../components/banner";
 import CompanyLogo from "../../components/companyLogo";
 import FeaturedProducts from "../../components/featuredProducts";
 import Footer from "../../components/footer";
+import TopCategories from "../../components/topCategories";
 
 const Home = (props) => {
    const {propData} = props
@@ -12,6 +13,7 @@ const Home = (props) => {
             <Banner/>
             <CompanyLogo/>
             <FeaturedProducts/>
+            <TopCategories />
             <Footer/>
          </>
    )
