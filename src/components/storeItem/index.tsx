@@ -13,21 +13,25 @@ type StoreItemProps = {
    imgUrlModalAddToCart: string
    details: string
 }
+
 const StoreItem = ({id, name, price, imgUrl, imgUrlModalAddToCart, details}: StoreItemProps) => {
-   return (<div className={styles.productsBox} key={id}><img className={styles.productImage} src={imgUrl} alt={name}/>
-      <div className={styles.bottom}>
-         <div className={styles.info}>
-            <p className={styles.title}>{name}</p>
-            <p className={styles.price}>{formatCurrency(price)}</p>
+   return (
+         <div className={styles.productsBox} key={id}>
+            <img className={styles.productImage} src={imgUrl} alt={name}/>
+            <div className={styles.bottom}>
+               <div className={styles.info}>
+                  <p className={styles.title}>{name}</p>
+                  <p className={styles.price}>{formatCurrency(price)}</p>
+               </div>
+               <ModalAddCart
+                     id={id}
+                     name={name}
+                     price={price}
+                     imgurl={imgUrl}
+                     imgUrlModalAddToCart={imgUrlModalAddToCart}
+                     details={details}/>
+            </div>
          </div>
-         <ModalAddCart
-               id={id}
-               name={name}
-               price={price}
-               imgurl={imgUrl}
-               imgUrlModalAddToCart={imgUrlModalAddToCart}
-               details={details}/>
-      </div>
-   </div>);
+   );
 };
 export default StoreItem;
