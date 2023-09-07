@@ -25,7 +25,8 @@ const FeaturedProducts = () => {
                        spaceBetween={24}
                        slidesPerView={4}
                        pagination={{clickable: true,}}
-                       navigation={true} loop={true}
+                       navigation={true}
+                       loop={true}
                        className="featuredProductSwiper">
                   {storeItems.map(item => {
                      return (
