@@ -1,0 +1,76 @@
+.recentlyContainer {
+   width: 100%;
+   height: 64.4rem;
+   //margin-top: 3.2rem;
+   padding-top: 8rem;
+   .heading {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 30rem;
+
+      .title {
+         color: #272343;
+         font-family: Inter;
+         font-size: 3.2rem;
+         font-style: normal;
+         font-weight: 600;
+         line-height: 110%; /* 3.52rem */
+         text-transform: capitalize;
+      }
+   }
+
+   .products {
+      display: flex;
+      align-items: center;
+      margin: 4rem auto 0;
+      scroll-behavior: smooth;
+      width: 132rem;
+   }
+}
+
+:global {
+   .recentlyAddedSlider {
+      position: relative;
+
+      .swiper-wrapper {
+         width: 266.4rem;
+
+         .swiper-slide {
+            width: 31.2rem !important;
+         }
+      }
+
+      .swiper-button-next, .swiper-button-prev {
+         z-index: 1000;
+         width: 4.4rem;
+         height: 4.4rem;
+         cursor: pointer;
+
+         &::after {
+            all: unset;
+         }
+      }
+
+      .swiper-button-prev {
+         background: url("../../assets/home/leftArrow_normal.png") no-repeat;
+         background-size: 100% 100%;
+         top: -10px;
+
+         &:hover {
+            background: url("../../assets/home/leftArrow_active.png");
+            background-size: 100% 100%;
+         }
+      }
+
+      .swiper-button-next {
+         background: url("../../assets/home/rightArrow_normal.png") no-repeat;
+         background-size: 100% 100%;
+
+         &:hover {
+            background: url("../../assets/home/rightArrow_active.png");
+            background-size: 100% 100%;
+         }
+      }
+   }
+}

@@ -4,6 +4,7 @@ import CompanyLogo from "../../components/companyLogo";
 import FeaturedProducts from "../../components/featuredProducts";
 import Footer from "../../components/footer";
 import TopCategories from "../../components/topCategories";
+import RecentlyAdded from "../../components/recentlyAdded";
 
 const Home = (props) => {
    const {propData} = props
@@ -14,6 +15,7 @@ const Home = (props) => {
             <CompanyLogo/>
             <FeaturedProducts/>
             <TopCategories />
+            <RecentlyAdded />
             <Footer/>
          </>
    )
